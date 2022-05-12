@@ -12,7 +12,7 @@ git clone https://github.com/pliiiq3/Terraform-with-DigitalOcean.git\
 touch terraform.tfvars\
 ls\
 nano terraform.tfvars\
-\
+(terraform.tfvars) token="dop_v1_8a00000000000000000000000000009999999999999999999999"  \
 terraform init\
 terraform plan\
 terraform apply -auto-approve\
