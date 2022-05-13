@@ -35,4 +35,7 @@ terraform apply \
 vim terraform-var.tfvars \
 (terraform-var.tfvars) filename="/home/pliii/good.txt" \
 (terraform-var.tfvars) content="BUS" \
-terraform apply -var-file=terraform-var.tfvars \
+terraform apply -var-file=terraform-var.tfvars \ 
+
+a \
+
