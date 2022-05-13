@@ -16,5 +16,23 @@ nano terraform.tfvars\
 terraform init\
 terraform plan\
 terraform apply -auto-approve\
-terraform destroy -auto-approve
+terraform destroy -auto-approve \
 
+\
+terraform.tfvars file \
+vim terraform.tfvars
+(terraform.tfvars) fliename="/home/pliii/pets.txt" \
+(terraform.tfvars) content="dog" \
+terraform apply \
+rm terraform.tfvars \
+vim terraform.tfvars.json \
+(terraform.tfvars.json) { \
+(terraform.tfvars.json)   "fliename":"/home/pliii/pets1.txt" , \
+(terraform.tfvars.json)   "content" : "Cats" \
+(terraform.tfvars.json) } \
+terraform apply \
+\
+vim terraform-var.tfvars \
+(terraform-var.tfvars) filename="/home/pliii/good.txt" \
+(terraform-var.tfvars) content="BUS" \
+terraform apply -var-file=terraform-var.tfvars \
