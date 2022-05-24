@@ -39,6 +39,9 @@ terraform apply -var-file="terraform-var.tfvars" \
 (oder) terraform apply -var-file="testing.tfvars" 
 \
 
+
+
+
 \
 
 
